@@ -15,15 +15,17 @@ experience to add books, view all registered books, manage personal collections,
 -git clone https://github.com/Khushijain018/book_app
 
 **2.Setup Virtualenv**
-
+```
 virtualenv env
 cd env/scripts/activate
+```
 
 **3.Migrate & Start Server**
-
+```
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
+```
 
 
 
